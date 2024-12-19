@@ -341,16 +341,16 @@ const StakingModal = ({buttonTitle, children, defaultSelectedValue }) => {
                     <Spliterr>
                         <div style={{ display: "flex", alignItems: "center", }}>
                             <img src={LizaLogo} />
-                            <SubHeading p="0 0 0 10px"> Liza Balance :</SubHeading>
+                            <SubHeading p="0 0 0 10px"> LizaX Balance :</SubHeading>
                         </div>
-                        <SubHeading p="0 0 0 10px"> {truncateDecimal(getBalance)} Liza</SubHeading>
+                        <SubHeading p="0 0 0 10px"> {truncateDecimal(getBalance)} LizaX</SubHeading>
 
                     </Spliterr>
                     <Spliterr>
-                        <P> You are staking {truncateDecimal(inputValue)} Liza token.</P>
+                        <P> You are staking {truncateDecimal(inputValue)} LizaX token.</P>
                         {isLoading ? <Loader />
                             :
-                            <StakeButton disabled={inputValue > 0 ? false : true} MaxWidth="150px" onClick={handleStake} inputValue={inputValue} >Stake {truncateDecimal(inputValue)} Liza</StakeButton>}
+                            <StakeButton disabled={inputValue > 0 ? false : true} MaxWidth="150px" onClick={handleStake} inputValue={inputValue} >Stake {truncateDecimal(inputValue)} LizaX</StakeButton>}
                     </Spliterr>
                 </WrapModal>
             </Modal>

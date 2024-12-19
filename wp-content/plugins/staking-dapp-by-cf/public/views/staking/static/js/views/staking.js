@@ -161,7 +161,7 @@ const Staking = () => {
                         <Grid item xs={12} md={10.2}>
                             <ContainerDefault maxWidth="xl">
                                 <MainHeading fs="24px">Pool Size</MainHeading>
-                                <P p="0 0 20px" fs="16px">Unlock the power of staking and experience the magic of compounding with $LIZA</P>
+                                <P p="0 0 20px" fs="16px">Unlock the power of staking and experience the magic of compounding with $LIZAX</P>
                                 <Grid container spacing={2}>
                                     {pairA?.stakingPool && <AprDays defaultSelectedValue={pairA} pair={pairA} />}
                                     {pairB?.stakingPool && <AprDays defaultSelectedValue={pairB} pair={pairB} />}

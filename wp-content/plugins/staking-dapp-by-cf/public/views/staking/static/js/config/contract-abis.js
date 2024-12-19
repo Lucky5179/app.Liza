@@ -1,5 +1,5 @@
 const chainId = 1 // 5 for Goerli, 1 for ETH network
-const tokenContract = '0x8b227d72570d3ead66014bca8305cbef7f90d1ee'; // right now on Goerli T2 Token // mainnet Liza token. change address here
+const tokenContract = '0x8b227d72570d3ead66014bca8305cbef7f90d1ee'; // right now on Goerli T2 Token // mainnet LizaX token. change address here
 const wrappedEth = '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'; // Goerli wrappedEth // change to mainnet wrapped eth
 
 const uniswapV2RouterContract = '0x7a250d5630b4cf539739df2c5dacb4c659f2488d'

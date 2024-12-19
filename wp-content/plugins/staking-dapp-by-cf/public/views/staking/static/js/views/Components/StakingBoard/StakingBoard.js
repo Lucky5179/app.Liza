@@ -334,7 +334,7 @@ export const StakingBoard = ({ userWallet, tokenData, pair, toggleGrid }) => {
                                         toggle={toggleGrid}
                                         stakingImg={LizaStake}
                                         stakingAPR={StakersRewards}
-                                        stakingDaysLock="Earned $Liza"
+                                        stakingDaysLock="Earned $LizaX"
                                         callingFunc={handleLizaReward}
                                         isDisable={StakersRewards > 0 ? false : false}
 
@@ -396,7 +396,7 @@ export const StakingBoard = ({ userWallet, tokenData, pair, toggleGrid }) => {
                                     >
                                         <MenuItemDots disabled={EthClaims > 0 ? false : true} onClick={() => handleCompoundETHRelock()}>Compound ETH & Relock</MenuItemDots>
                                         <MenuItemDots disabled={EthClaims > 0 ? false : true} onClick={() => handleClaimETHRelock()}>Claim ETH & Relock</MenuItemDots>
-                                        <MenuItemDots disabled={StakersRewards > 0 ? false : true} onClick={() => handleLizaReward()}>Claim $LIZA Rewards</MenuItemDots>
+                                        <MenuItemDots disabled={StakersRewards > 0 ? false : true} onClick={() => handleLizaReward()}>Claim $LIZAX Rewards</MenuItemDots>
                                         <MenuItemDots disabled={timerEnded ? false : true} onClick={() => handleUnstake()}>Unstake</MenuItemDots>
                                     </Menu>
                                 </Grid>

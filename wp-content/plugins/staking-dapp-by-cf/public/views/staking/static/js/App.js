@@ -10,8 +10,8 @@ const projectId = '9d5543e928cdf4894661cc9647719820'
 
 // 2. Create wagmiConfig
 const metadata = {
-  name: 'Liza Token',
-  description: 'Liza Staking',
+  name: 'LizaX Token',
+  description: 'LizaX Staking',
   url: 'https://web3modal.com',
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
